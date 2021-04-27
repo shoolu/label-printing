@@ -37,7 +37,7 @@ def printLabels(labels):
 labels = []
 
 while True:    # infinite loop
-    location = input("Enter your location ('p' to Print or 'q' to quit): ") 
+    location = input("Enter your Location ('p' to Print or 'q' to quit): ") 
     if location == "q":  
         break
     elif location == "p" or location == "print":
